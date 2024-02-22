@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Radio</title>
+        <link rel="icon" href="/img/radio.jpeg">
+        <link rel="stylesheet" href="./css/style.css">
+       <!-- <script src="/js/app.js"></script> -->
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            {{#if listExist}}
+            <section id="chaneelList">
+                <ul>
+                    
+                    <li id="playUrl">
+                        {{#each channelList}}
+                        <div class="singleList">
+                            <img src="/img/{{this.image}}.jpeg" class="selection" data-topic="{{this.url}}">
+                            <h4>{{this.name}}</h4>
+                            </div>
+                        {{/each}}
+                    </li>
+                    
+                </ul>
+            </section>
+            {{/if}}
+        </div>
+        
+        {{>footer}}
+
+        <script src="/js/app.js"></script>
+        
+    </body>
+
+</html>

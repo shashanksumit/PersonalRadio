@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Bollywood & Beyond",
+        "url": "http://185.80.220.12:8046/stream",
+        "image": "Bollywood&Beyond"
+    },
+    {
+        "name": "BombayBeats", 
+        "url": "http://sc-bb.1.fm:8017/;", 
+        "image": "BombayBeats"
+    }, 
+    {
+        "name": "Radio Mirchi", 
+        "url": "http://peridot.streamguys.com:7150/Mirchi", 
+        "image": "RadioMirchi"
+    }, 
+    {
+        "name": "Punjabi Radio", 
+        "url": "https://stream.zeno.fm/1k0y9f0cm0quv", 
+        "image": "PunjabiRadio"
+    }, 
+    {
+        "name": "Radio Bollywood", 
+        "url": "http://stream.radiobollyfm.in:8201/;stream.mp3", 
+        "image": "RadioBolly"
+    }, 
+    {
+        "name": "Hits Of Bollywood", 
+        "url": "https://stream.zeno.fm/a2gyqzwpwfeuv", 
+        "image": "HitsOfBollywood"
+    }, 
+    {
+        "name": "Breezy FM", 
+        "url": "https://stream.zeno.fm/nb7v5wd747zuv", 
+        "image": "BreezyFM"
+    }, 
+    {
+        "name": "Md. Aziz", 
+        "url": "https://stream.zeno.fm/p5ny63td1d0uv", 
+        "image": "MdAziz"
+    }, 
+    {
+        "name": "Arijit Singh", 
+        "url": "https://stream.zeno.fm/rfpf8qec94zuv", 
+        "image": "ArijitSingh"
+    }, 
+    {
+        "name": "Bhojpuri Hits", 
+        "url": "https://stream.zeno.fm/yz0ncx9gha0uv", 
+        "image": "BhojpuriSong"
+    }
+]
