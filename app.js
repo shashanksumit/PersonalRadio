@@ -4,7 +4,7 @@ const hbs = require('hbs')
 const loadChannels = require('./src/loadChannel')
 
 const app = express()
-
+const port = process.env.PORT || 3000
 // Define path for Express
 const publicDirPath = path.join(__dirname, '/public')
 const viewPath = path.join(__dirname, '/templates/views')
@@ -56,6 +56,6 @@ app.get('*', (req, res) => {
 })
 
 // Start the server
-app.listen(3000, () => {
-    console.log('Server is up on port 3000')
+app.listen(port, () => {
+    console.log('Server is up on port ', port)
 })

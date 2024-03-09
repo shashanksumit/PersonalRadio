@@ -30,7 +30,7 @@ channelSection.forEach( (channel) => {
 
 
 const fetchList = () => {
-    fetch('http://localhost:3000/listchannel').then((response) => {
+    fetch('/listchannel').then((response) => {
         response.json().then((data) => {
             if (data.errot) {
                 console.log(data)
